@@ -1,0 +1,90 @@
+:root {
+  /* Tipografía */
+  --font-display: 'Fraunces', ui-serif, Georgia, serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+
+  /* Color - light surfaces */
+  --ink: #0A0A0A;
+  --ink-2: #1D1D1F;
+  --ink-3: #6E6E73;
+  --paper: #FAF9F6;
+  --paper-pure: #FFFFFF;
+  --line: #E5E2DC;
+  --accent: #0071E3;
+  --accent-soft: rgba(0, 113, 227, 0.08);
+
+  /* Color - dark surfaces */
+  --ink-inv: #FAF9F6;
+  --ink-inv-2: #C7C5BF;
+  --ink-inv-3: #8A8780;
+  --night: #0A0A0A;
+  --night-2: #18181A;
+  --line-inv: rgba(255, 255, 255, 0.08);
+  --accent-inv: #4A9EFF;
+
+  /* Spacing */
+  --space-1: 8px;
+  --space-2: 12px;
+  --space-3: 16px;
+  --space-4: 20px;
+  --space-5: 24px;
+  --space-6: 28px;
+  --space-7: 32px;
+  --space-8: 40px;
+  --space-9: 44px;
+  --space-10: 48px;
+  --space-11: 52px;
+  --space-12: 56px;
+  --space-13: 72px;
+  --space-14: 96px;
+  --space-15: 120px;
+  --space-16: 160px;
+  --space-17: 200px;
+
+  /* Layout */
+  --container-max: 1262px;
+  --container-pad-mobile: 20px;
+  --container-pad-tablet: 32px;
+  --container-pad-desktop: 40px;
+
+  /* Type scale */
+  --fs-eyebrow: 13px;
+  --fs-small: 14px;
+  --fs-body: 18px;
+  --fs-link: 18px;
+  --fs-button: 16px;
+  --fs-mono: 14px;
+  --fs-h-tertiary: 24px;
+  --fs-h-secondary: 40px;
+  --fs-h-primary: 56px;
+  --fs-display: 80px;
+  --fs-display-xl: 104px;
+
+  --lh-eyebrow: 18px;
+  --lh-small: 20px;
+  --lh-body: 28px;
+  --lh-link: 24px;
+  --lh-button: 24px;
+  --lh-mono: 22px;
+  --lh-h-tertiary: 32px;
+  --lh-h-secondary: 48px;
+  --lh-h-primary: 60px;
+  --lh-display: 84px;
+  --lh-display-xl: 104px;
+
+  /* Easing */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Radius */
+  --radius-button: 9999px;
+  --radius-input: 8px;
+  --radius-card: 12px;
+  --radius-large: 24px;
+
+  /* Shadows */
+  --shadow-subtle: 0 1px 3px rgba(0, 0, 0, 0.12);
+  --shadow-medium: 0 4px 12px rgba(0, 0, 0, 0.15);
+  --shadow-deep: 0 12px 32px rgba(0, 0, 0, 0.16);
+}
