@@ -1,2 +1,6 @@
-www.worgena.com/*  https://worgena.com/:splat  301!
-https://worgena.com/*  https://worgena.pages.dev/:splat  301!
+# Vacío por ahora. Las reglas de redirección se agregan cuando se configure
+# el dominio custom (worgena.com). Formato esperado por Cloudflare Pages:
+#
+#   /ruta-origen  /ruta-destino  301
+#
+# Ver historial de git para las reglas originales (commit previo al fix).
